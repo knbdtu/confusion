@@ -20,7 +20,7 @@ class App extends Component {
 						<NavbarBrand href="/">Lorem Ipsum</NavbarBrand>
 					</div>
 				</Navbar>
-				<Menu />
+				<Menu dishes={this.state.dishes}/>
 			</div>
 		);
 	}
